@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Address Book</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <h1>My Address Book</h1>
+
+  <div class="div-left">
+    <div class="search-div">
+      <input id="search" type="text" class="search-contact form-control" placeholder="Search Contact">
+      <br>
+      <button class ="btn-outline-dark" id="btn-search" type="submit" value="submit">Search</button>
+      <button class ="btn-outline-dark" id="btn-back" type="submit" value="submit">Back</button>
+    </div>
+    <br>
+
+    <br>
+    <div class="add-div">
+
+      <form id="contact-form">
+        <input id = "first" type="text" class="firstNameArr form-control" placeholder="First Name">  <br>
+        <input id = "last" type="text" class="lastNameArr form-control" placeholder="Last Name">  <br>
+        <input id = "address" type="text" class="addressArr form-control" placeholder="Address">  <br>
+        <input id = "number" type="text" class="phoneNumberArr form-control" placeholder="Phone Number">
+      </form>
+      <br>
+      <button class ="btn-outline-dark" id="btn-add" type="submit" value="submit">Add</button>
+      <br>
+
+
+      <p id="error">Make sure there are no spaces in your name!</p>
+      </div>
+
+  </div>
+
+    <div class="div-right">
+      <div class="infos">
+        <p id="infoSearch"></p>
+    </div>
+
+    <div class="contact-div">
+      <p id="listed"></p>
+
+      <table id="contact-item">
+        <tr>
+          <th id="flName"></th>
+          <td id="deleteCell"><button class ="btn-outline-dark btn-delete" id="first-btn" type="submit" value="submit">Delete</button></td>
+        </tr>
+        <tr>
+          <td id="addressName"></td>
+        </tr>
+        <tr>
+          <td id="numberName"></td>
+        </tr>
+        <br>
+      </table>
+
+    </div>
+  </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="main.js" charset="utf-8"></script>
+  </body>
+
+</html>

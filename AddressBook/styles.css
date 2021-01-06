@@ -1,0 +1,95 @@
+body {
+  background-color: #FFC300 ;
+}
+
+h1 {
+  text-align: center;
+  font-family: Copperplate;
+  font-size: 50px;
+  font-style: italic;
+  background-color: #00C3EA ;
+  padding: 10px;
+
+}
+
+p {
+  padding-top: 3%;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  margin-top: 15px
+}
+
+.infos {
+  display: none;
+  text-align: left;
+  padding-left: 10%;
+  padding-top:  4%;
+  color: red;
+}
+
+.book {
+  height: 400px;
+}
+
+.search-div {
+  text-align: left;
+  margin-left: 10%;
+  padding-right: 15%;
+}
+
+.delete-div {
+  text-align: left;
+  margin-left: 10%;
+  padding-right: 15%;
+}
+
+.add-div {
+  text-align: left;
+  margin-left: 10%;
+  padding-right: 15%;
+}
+
+.div-left {
+  display: inline-block;
+  width: 50%;
+  padding-left: 10%;
+  margin-top: 1%;
+}
+
+.contact-div {
+  text-align: left;
+  padding-left: 10%;
+  padding-top:  4%;
+
+}
+
+.div-right {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 1%;
+  height: 540px;
+  width: 450px;
+  background-image: url("https://i.pinimg.com/originals/8a/f9/4a/8af94acf5e43ebc202b578be4f51dc82.png");
+  overflow: auto;
+}
+
+
+
+#first-btn {
+  display: none;
+}
+
+#error {
+  color: red;
+}
+
+#btn-back {
+  display: none;
+}
+
+#deleteCell {
+  padding-left: 50px;
+}
